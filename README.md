@@ -5,11 +5,11 @@ Decidi refazer um projeto de To-Do List que criei no início do meu aprendizado,
 Arquitetura:
 Optei por migrar de um projeto centralizado em um único ponto para uma arquitetura de camadas, adotando a CLEAN ARCHITECTURE:
 
-SistemasTarefas.API
-SistemasTarefas.Application
-SistemasTarefas.Domain
-SistemasTarefas.Infra.Data
-SistemasTarefas.Infra.Ioc
+| SistemasTarefas.API |
+| SistemasTarefas.Application |
+| SistemasTarefas.Domain |
+| SistemasTarefas.Infra.Data |
+| SistemasTarefas.Infra.Ioc |
 
 Repository Pattern:
 Abandonei a abordagem que exigia herdar todos os métodos da classe base, optando por uma abordagem que permite o uso seletivo dos métodos necessários. Isso pode ser considerado uma forma de "composição", onde posso utilizar apenas o que é necessário, evitando violações dos princípios do S.O.L.I.D.
